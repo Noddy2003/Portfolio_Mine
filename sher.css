@@ -488,3 +488,68 @@ z-index: 99;
 color: transparent;
 
 }
+
+
+@media (max-width: 768px) {
+  #nav {
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+  }
+
+  #page1 h1 {
+    font-size: 60px;
+  }
+
+  #page1 h2 {
+    font-size: 20px;
+  }
+
+  #scroller h4 {
+    font-size: 40px;
+  }
+
+  #card-container {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+  }
+
+  .card {
+    width: 80%;
+    height: 200px;
+  }
+
+  #about-us {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #about-us img {
+    width: 150px;
+    height: 150px;
+  }
+
+  #about-me-in h3 {
+    font-size: 32px;
+  }
+
+  #about-me-in p {
+    font-size: 16px;
+  }
+
+  #page4 .elem {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #page4 h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  video {
+    object-position: center;
+  }
+}
+
